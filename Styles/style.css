@@ -60,8 +60,10 @@
            border-radius: 25px;
          } 
          
-         .btn:hover {
-           background-color:#6495ED;
+         .btn:hover,
+         .btn:focus {
+           box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+           transform: translateY(-0.25em);
          }
          
          .mainschools .containerschools {
